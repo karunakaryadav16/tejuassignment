@@ -41,7 +41,7 @@ const ImageGallery = () => {
 
   return (
     <div>
-      <h1>Image Gallery</h1>
+{/*       <h1>Image Gallery</h1> */}
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {images.map((image) => (
           <img key={image.id} src={image.webformatURL} alt={image.tags} style={{ width: '200px', height: '200px', margin: '8px' }} />
